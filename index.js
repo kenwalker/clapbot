@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const https = require('https');
 var totalMessages = 0;
-var clapSounds = [ "applause-01 2.mp3", "applause-01.mp3", "applause-2 2.mp3", "applause-2.mp3", "applause-4 2.mp3", "applause-4.mp3", "applause3 2.mp3", "applause3.mp3", "applause4 2.mp3", "applause4.mp3", "applause6 2.mp3", "applause6.mp3", "applause7 2.mp3", "applause7.mp3", "applause8.mp3", "applause10.mp3", "Audience.mp3", "boos2.mp3", "boos3.mp3"];
+var clapSounds = [ "applause-01 2.mp3", "applause-01.mp3", "applause-2 2.mp3", "applause-2.mp3", "applause-4 2.mp3", "applause-4.mp3", "applause3 2.mp3", "applause3.mp3", "applause4 2.mp3", "applause4.mp3", "applause6 2.mp3", "applause6.mp3", "applause7 2.mp3", "applause7.mp3", "applause8.mp3", "applause10.mp3", "Audience.mp3"];
 var lastClaps = {};
 
 const client = new Discord.Client();
