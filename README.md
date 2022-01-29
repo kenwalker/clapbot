@@ -1,2 +1,2 @@
-# clapbot
-A Discord bot that just claps when you ask
+# honkbot
+A Nine Blades Discord bot for the purposes of HONKING in Voice chats
